@@ -111,7 +111,7 @@
 
     <!-- Subtitle Gradient Highlights -->
     <text x="600" y="156" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="url(#accentGrad)" letter-spacing="0.5">
-      REST &bull; GraphQL &bull; gRPC &bull; WebSockets &bull; MQTT &bull; SSE
+      REST &#x2022; GraphQL &#x2022; gRPC &#x2022; WebSockets &#x2022; MQTT &#x2022; SSE
     </text>
 
     <!-- Description -->
@@ -126,7 +126,7 @@
         <rect width="145" height="52" rx="10" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6" filter="url(#glow)" />
         <rect width="145" height="52" rx="10" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1" />
         <text x="72" y="24" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#38bdf8">REST &amp; HTTP/3</text>
-        <text x="72" y="41" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94a3b8">JSON &bull; XML &bull; OpenAPI</text>
+        <text x="72" y="41" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94a3b8">JSON &#x2022; XML &#x2022; OpenAPI</text>
       </g>
 
       <!-- gRPC -->
@@ -134,7 +134,7 @@
         <rect width="145" height="52" rx="10" fill="url(#cardGrad)" stroke="#6366f1" stroke-width="1.2" stroke-opacity="0.6" filter="url(#glow)" />
         <rect width="145" height="52" rx="10" fill="url(#cardGrad)" stroke="#6366f1" stroke-width="1" />
         <text x="72" y="24" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#818cf8">gRPC &amp; Protobuf</text>
-        <text x="72" y="41" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94a3b8">Streaming &bull; Reflection</text>
+        <text x="72" y="41" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94a3b8">Streaming &#x2022; Reflection</text>
       </g>
 
       <!-- GraphQL -->
@@ -142,7 +142,7 @@
         <rect width="145" height="52" rx="10" fill="url(#cardGrad)" stroke="#ec4899" stroke-width="1.2" stroke-opacity="0.6" filter="url(#glow)" />
         <rect width="145" height="52" rx="10" fill="url(#cardGrad)" stroke="#ec4899" stroke-width="1" />
         <text x="72" y="24" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#f472b6">GraphQL</text>
-        <text x="72" y="41" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94a3b8">Schema &bull; Subscriptions</text>
+        <text x="72" y="41" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94a3b8">Schema &#x2022; Subscriptions</text>
       </g>
 
       <!-- WebSockets -->
@@ -150,7 +150,7 @@
         <rect width="145" height="52" rx="10" fill="url(#cardGrad)" stroke="#34d399" stroke-width="1.2" stroke-opacity="0.6" filter="url(#glow)" />
         <rect width="145" height="52" rx="10" fill="url(#cardGrad)" stroke="#34d399" stroke-width="1" />
         <text x="72" y="24" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#34d399">WebSockets &amp; SSE</text>
-        <text x="72" y="41" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94a3b8">Bi-directional &bull; Realtime</text>
+        <text x="72" y="41" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94a3b8">Bi-directional &#x2022; Realtime</text>
       </g>
 
       <!-- MQTT & Sockets -->
@@ -158,7 +158,7 @@
         <rect width="145" height="52" rx="10" fill="url(#cardGrad)" stroke="#f59e0b" stroke-width="1.2" stroke-opacity="0.6" filter="url(#glow)" />
         <rect width="145" height="52" rx="10" fill="url(#cardGrad)" stroke="#f59e0b" stroke-width="1" />
         <text x="72" y="24" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#fbbf24">MQTT &amp; Socket.IO</text>
-        <text x="72" y="41" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94a3b8">IoT &bull; Event Message</text>
+        <text x="72" y="41" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94a3b8">IoT &#x2022; Event Message</text>
       </g>
     </g>
   </g>
