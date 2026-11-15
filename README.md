@@ -1,141 +1,213 @@
-# 🚀 Awesome-Multi-Protocol-API-Client-GRPC-Websockets-Rest
+<div align="center">
 
-# 🌐 Awesome Multi-Protocol API Client (gRPC / WebSockets / REST)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0-1.0" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Multi-Protocol-API-Client-GRPC-Websockets-Rest/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Multi-Protocol-API-Client-GRPC-Websockets-Rest?style=flat-square" alt="Stars" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Multi-Protocol-API-Client-GRPC-Websockets-Rest/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Multi-Protocol-API-Client-GRPC-Websockets-Rest?style=flat-square" alt="Forks" /></a>
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-> 💡 A curated list of top **Multi-Protocol API Client** platforms — both SaaS/Hosted commercial solutions and open-source alternatives for testing **REST**, **GraphQL**, **gRPC**, **WebSockets**, and other protocols from a single unified workspace.
+<br /><br />
+
+<a href="#readme">
+  <img src="assets/banner.svg" alt="Awesome Multi-Protocol API Client Banner - REST, GraphQL, gRPC, WebSockets, MQTT" width="100%" />
+</a>
+
+# 🌐 Awesome Multi-Protocol API Client (gRPC / WebSockets / REST / GraphQL)
+
+> 🚀 A comprehensive, curated directory of the best **Multi-Protocol API Client** platforms, tools, and developer environments. Compare leading SaaS commercial solutions alongside top open-source alternatives for authoring, testing, debugging, and mocking **REST**, **gRPC**, **WebSockets**, **GraphQL**, **SSE**, and **MQTT** APIs from a single unified interface.
 > 
-> 🌟 *Star this repo if you find it useful!* 🌟
+> 🌟 *Star this repository to keep track of new releases and emerging tools!* 🌟
+
+</div>
 
 ---
 
-## 📋 Table of Contents
+## 📑 Table of Contents
 
-- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [📮 Postman](#-postman)
-  - [🌙 Insomnia](#-insomnia)
-  - [🛡️ Kreya](#️-kreya)
-- [🟩 Open-Source Software](#-open-source-software)
-  - [🐶 Bruno](#-bruno)
-  - [👽 Hoppscotch](#-hoppscotch)
-  - [🐃 Yaak](#-yaak)
-  - [🐗 Warthog](#-warthog)
-  - [⚡ grpcui](#-grpcui)
-  - [🦊 Restfox](#-restfox)
-  - [📦 OneOpen Postkid](#-oneopen-postkid)
-- [📊 Comparison at a Glance](#-comparison-at-a-glance)
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [📋 Quick Comparison Table (SaaS vs OSS)](#-quick-comparison-table)
+- [🟦 SaaS / Commercial Hosted Platforms](#-saas--commercial-hosted-platforms)
+- [🟩 Open-Source Software Tools](#-open-source-software-tools)
+  - [1. Hoppscotch](#1-hoppscotch)
+  - [2. Bruno](#2-bruno)
+  - [3. Kong Insomnia](#3-kong-insomnia)
+  - [4. Yaak](#4-yaak)
+  - [5. grpcurl](#5-grpcurl)
+  - [6. BloomRPC](#6-bloomrpc)
+  - [7. grpcui](#7-grpcui)
+  - [8. API Dash](#8-api-dash)
+  - [9. Restfox](#9-restfox)
+  - [10. Step CI](#10-step-ci)
+  - [11. Milkman](#11-milkman)
+  - [12. Warthog](#12-warthog)
+  - [13. OneOpen Postkid](#13-oneopen-postkid)
 - [🤝 Contributing](#-contributing)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
 - [📄 License](#-license)
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 📈 Sector Overview & Market Dynamics
 
-Commercial, cloud-hosted Multi-Protocol API Client platforms. These are not fully open-source but are included as reference points for feature comparison.
+The global API management and testing tools market is estimated between **$8 billion and $15 billion** (projected to reach over $35 billion by 2032 at an annual CAGR of ~18–22%). 
 
-### 📮 Postman
-- **🏷️ Type:** Full API platform with growing multi-protocol support
-- **📝 Overview:** Postman is the most widely used API client, with a free tier for individuals that includes the client, mock servers, and native Git on every plan. It offers cloud workspaces at the center of the product, though its lightweight API Client can send requests offline. Pricing starts at $9/month for Solo and $19/user/month for Team (annual).
-- **⚠️ Trade-off:** Cloud-first architecture means request data touches vendor servers, and some teams find the platform increasingly heavy for simple request testing. Protocol support has expanded but remains REST-centric compared to dedicated multi-protocol tools.
-
-### 🌙 Insomnia
-- **🏷️ Type:** Mature desktop client with strong GraphQL and gRPC support
-- **📝 Overview:** Insomnia (owned by Kong) is the most established open-source desktop client, with a free tier that includes unlimited Git Sync projects for up to 3 users, unlimited local and cloud projects, and 1,000 mock-server requests per month. It covers REST, GraphQL, gRPC, WebSockets, and SSE in one app, with GraphQL schema introspection and autocompletion being a clear strength. Pro is $12/user/month and lifts the user cap.
-- **⚠️ Trade-off:** Cloud-first and Kong-owned, which makes some privacy-conscious teams nervous; the 3-user free ceiling is a real limitation for growing teams.
-
-### 🛡️ Kreya
-- **🏷️ Type:** Privacy-first desktop client with native gRPC focus
-- **📝 Overview:** Kreya is a privacy-first desktop client that lets teams explore, test, and automate API workflows without SaaS lock-in. It provides native gRPC, REST, GraphQL, WebSocket, and Server-Sent Events tooling in one workspace, with built-in HTTP/1.1, HTTP/2, and HTTP/3 support. It supports flexible transports including HTTP, local Unix domain sockets, and Windows named pipes.
-- **📌 Note:** Kreya is a commercial product with a free tier, positioned for developers who prioritize privacy and gRPC depth.
+The ecosystem is **moderately fragmented**: while enterprise incumbents like Postman and Kong command significant developer mindshare, no single vendor maintains a "winner-take-all" monopoly across every protocol. The landscape is split across specialized gRPC debugging utilities, privacy-first local-first desktop apps, Git-native CI/CD tooling, and browser-based real-time clients.
 
 ---
 
-## 🟩 Open-Source Software
+## 🟦 SaaS / Commercial Hosted Platforms
 
-Self-hosted, community-driven Multi-Protocol API Client tools. The open-source ecosystem spans **Git-native file-based clients**, **multi-protocol browser/desktop clients**, **privacy-focused desktop apps**, and **specialized gRPC GUIs**.
+Commercial, cloud-hosted, and hybrid multi-protocol API client platforms. The table below is sorted in **descending order by company valuation / scale**:
 
-### 🐶 Bruno
+| Platform | Company Scale / Valuation | Starting Paid Tier Pricing | Free Tier / Trial Limits | Supported Protocols | Key Strengths |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **📮 [Postman](https://www.postman.com/)** | **$5.6B Valuation** *(~$310M+ ARR)* | **$14/user/month** *(Basic, billed annually)* or **$19/mo** monthly | **Free Forever Plan**: Capped at 1 user, 10,000 Postman API calls/month, up to 5 integrations, 3 active collection runners, unlimited mock servers/specs. | REST, GraphQL, gRPC, WebSockets, Socket.IO, MQTT, SSE | Global industry standard with cloud workspaces, team governance, API cataloging, and comprehensive CI/CD integrations. |
+| **🌙 [Kong Insomnia](https://insomnia.rest/)** | **$2.0B Parent Valuation** *(Kong: $100M+ ARR)* | **$12/user/month** *(Team, billed annually)* or **$15/mo** monthly | **Free Essentials Plan**: Capped at 1 user for cloud projects (up to 3 users for Git Sync), 1,000 mock server requests/month, local scratchpad mode. | REST, GraphQL, gRPC, WebSockets, SSE | Deep GraphQL schema introspection, local-first option with End-to-End Encryption (E2EE), and native Kong Gateway plugins. |
+| **🐕 [Apidog](https://apidog.com/)** | **Privately Held / Bootstrapped** *(Self-funded, 5M+ users)* | **$9/user/month** *(Basic, billed annually)* or **$12/mo** monthly | **Free Forever Plan**: Free for up to 4 team members, up to 5 projects per team, unlimited test runs, and unlimited mock requests. | REST, GraphQL, WebSockets, gRPC, SSE | All-in-one platform unifying automated API testing, interactive visual documentation, smart mocking, and contract validation. |
+| **🛡️ [Kreya](https://kreya.app/)** | **Independent Indie Dev** *(Bootstrapped, Solo-entity)* | **$4.17/month** *(Pro, billed annually at $50/yr)* | **Free Forever Plan**: 1 user, unlimited gRPC/REST/GraphQL/WebSockets over HTTP/2 & HTTP/3, local storage only, request history limited to latest request. *(10-day full-feature trial for Pro)* | gRPC, REST, GraphQL, WebSockets, SSE | Privacy-first desktop client with deep native gRPC features, protobuf reflection, client streaming, and Windows named pipes. |
+
+---
+
+## 🟩 Open-Source Software Tools
+
+Community-driven, self-hostable, and offline-first open-source API clients. The table and detailed list below are sorted in **descending order by GitHub stargazers**:
+
+| Tool | GitHub Stars | License | Primary Tech Stack | REST | gRPC | WebSockets | GraphQL | MQTT | Architecture / Type |
+| :--- | :---: | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **[Hoppscotch](#1-hoppscotch)** | [![GitHub stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social&color=white)](https://github.com/hoppscotch/hoppscotch/stargazers) | MIT | TypeScript, Vue.js | ✅ | ❌ | ✅ | ✅ | ✅ | Web / PWA / Desktop / Self-Hostable |
+| **[Bruno](#2-bruno)** | [![GitHub stars](https://img.shields.io/github/stars/usebruno/bruno?style=social&color=white)](https://github.com/usebruno/bruno/stargazers) | MIT | JS, Electron | ✅ | ✅ | ✅ | ✅ | ❌ | Git-native Local Desktop App |
+| **[Insomnia (Core)](#3-kong-insomnia)** | [![GitHub stars](https://img.shields.io/github/stars/Kong/insomnia?style=social&color=white)](https://github.com/Kong/insomnia/stargazers) | Apache-2.0 | Electron, React | ✅ | ✅ | ✅ | ✅ | ❌ | Desktop App with Cloud/Git Sync |
+| **[Yaak](#4-yaak)** | [![GitHub stars](https://img.shields.io/github/stars/mountain-loop/yaak?style=social&color=white)](https://github.com/mountain-loop/yaak/stargazers) | MIT (Source) | Tauri, Rust, React | ✅ | ✅ | ✅ | ✅ | ❌ | Ultra-fast Local Desktop Client |
+| **[grpcurl](#5-grpcurl)** | [![GitHub stars](https://img.shields.io/github/stars/fullstorydev/grpcurl?style=social&color=white)](https://github.com/fullstorydev/grpcurl/stargazers) | MIT | Go | ❌ | ✅ | ❌ | ❌ | ❌ | CLI "cURL for gRPC" |
+| **[BloomRPC](#6-bloomrpc)** | [![GitHub stars](https://img.shields.io/github/stars/bloomrpc/bloomrpc?style=social&color=white)](https://github.com/bloomrpc/bloomrpc/stargazers) | GPL-3.0 | TypeScript, Electron | ❌ | ✅ | ❌ | ❌ | ❌ | GUI Client for gRPC Services |
+| **[grpcui](#7-grpcui)** | [![GitHub stars](https://img.shields.io/github/stars/fullstorydev/grpcui?style=social&color=white)](https://github.com/fullstorydev/grpcui/stargazers) | MIT | Go | ❌ | ✅ | ❌ | ❌ | ❌ | Interactive Web UI for gRPC Servers |
+| **[API Dash](#8-api-dash)** | [![GitHub stars](https://img.shields.io/github/stars/foss42/apidash?style=social&color=white)](https://github.com/foss42/apidash/stargazers) | Apache-2.0 | Dart, Flutter | ✅ | ❌ | ✅ | ❌ | ❌ | Beautiful Cross-Platform Desktop UI |
+| **[Restfox](#9-restfox)** | [![GitHub stars](https://img.shields.io/github/stars/flawiddsouza/Restfox?style=social&color=white)](https://github.com/flawiddsouza/Restfox/stargazers) | MIT | Vue.js | ✅ | ❌ | ✅ | ❌ | ❌ | Lightweight Offline Web & Desktop Client |
+| **[Step CI](#10-step-ci)** | [![GitHub stars](https://img.shields.io/github/stars/stepci/stepci?style=social&color=white)](https://github.com/stepci/stepci/stargazers) | Apache-2.0 | TypeScript, Node.js | ✅ | ✅ | ✅ | ✅ | ❌ | Declarative Multi-Protocol Automated Testing |
+| **[Milkman](#11-milkman)** | [![GitHub stars](https://img.shields.io/github/stars/warmuuh/milkman?style=social&color=white)](https://github.com/warmuuh/milkman/stargazers) | Apache-2.0 | Java, JavaFX | ✅ | ✅ | ✅ | ✅ | ❌ | Extensible Plugin-based Workbench |
+| **[Warthog](#12-warthog)** | [![GitHub stars](https://img.shields.io/github/stars/Forest33/warthog?style=social&color=white)](https://github.com/Forest33/warthog/stargazers) | Apache-2.0 | Go, Wails | ❌ | ✅ | ❌ | ❌ | ❌ | Dedicated Cross-Platform gRPC GUI |
+| **[OneOpen Postkid](#13-oneopen-postkid)** | [![GitHub stars](https://img.shields.io/badge/PyPI-postkid-blue?style=social&color=white)](https://pypi.org/project/oneopen-postkid/) | Open Source | Python, Flet | ✅ | ❌ | ✅ | ✅ | ✅ | Pure-Python Local-First API Client |
+
+---
+
+### Detailed Profiles
+
+### 1. Hoppscotch
+- **GitHub**: [![GitHub stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social&color=white)](https://github.com/hoppscotch/hoppscotch/stargazers)
+- **🛠️ Stack:** TypeScript / Vue.js | **📜 License:** MIT
+- **📝 Overview:** Hoppscotch is the most popular open-source API request client on GitHub. It features a modern web-first interface alongside desktop packages, a command-line interface, and self-hosted instances. It provides out-of-the-box support for REST, GraphQL, WebSockets, Server-Sent Events (SSE), Socket.IO, and MQTT.
+- **🎯 Best for:** Developers who want an instant web-accessible client with broad protocol support including MQTT and Socket.IO.
+
+### 2. Bruno
+- **GitHub**: [![GitHub stars](https://img.shields.io/github/stars/usebruno/bruno?style=social&color=white)](https://github.com/usebruno/bruno/stargazers)
 - **🛠️ Stack:** JavaScript / Electron | **📜 License:** MIT
-- **📝 Overview:** Bruno is a Git-friendly, offline-first API client that stores every request as a plain-text file in your repository, so collections are versioned, diffed, and reviewed like code. It works fully offline and needs no account. The free client is complete; Pro ($6/user/month) adds in-app Git integration, an unlimited collection runner, and code generation, and Ultimate ($11) adds SSO, SCIM, and audit logs. It supports REST, GraphQL, SOAP, gRPC, and WebSocket. Bruno surpassed 4 million developers in 2026 and won the API World award for Best in API Developer Experience.
-- **⚠️ Trade-off:** `.bru` is Bruno's own format, so collections are portable as text but not as OpenAPI; some Git workflow features sit in paid tiers.
-- **🎯 Best for:** Teams wanting Git to be the collaboration layer and never want request data in a vendor cloud, with broad protocol coverage including gRPC and WebSocket.
+- **📝 Overview:** Bruno reimagines API testing with a Git-friendly, offline-first philosophy. Instead of saving data into proprietary clouds, Bruno saves requests in your repository as plain-text files using the `.bru` markup format. Collections can be version-controlled, diffed, and merged using standard Git workflows.
+- **🎯 Best for:** Teams requiring pure local privacy and Git collaboration without vendor cloud lock-in.
 
-### 👽 Hoppscotch
-- **🛠️ Stack:** TypeScript / Vue | **📜 License:** MIT
-- **📝 Overview:** Hoppscotch is the most-starred open-source API client (80.5k GitHub stars), starting as a browser-based tool and now shipping desktop apps, a CLI, and a self-hostable server. It covers the widest protocol range on this list: REST, GraphQL, WebSocket, SSE, Socket.IO, and MQTT. The cloud Free plan includes unlimited workspaces, collections, and requests; Organization is $6/user/month. Self-hosting is available from GitHub.
-- **⚠️ Trade-off:** Browser-based requests to local or private APIs can hit CORS, requiring a browser extension or proxy; fully offline use is not published, and there is no published gRPC support.
-- **🎯 Best for:** Teams wanting the broadest protocol coverage (including MQTT and Socket.IO) in a lightweight browser-first client, accepting the absence of gRPC.
+### 3. Kong Insomnia
+- **GitHub**: [![GitHub stars](https://img.shields.io/github/stars/Kong/insomnia?style=social&color=white)](https://github.com/Kong/insomnia/stargazers)
+- **🛠️ Stack:** Electron / React | **📜 License:** Apache-2.0
+- **📝 Overview:** Insomnia is a widely adopted desktop development client providing robust GraphQL schema autocompletion, REST execution, WebSockets, and gRPC support with reflection. It offers end-to-end encrypted project synchronization and local scratchpad capabilities.
+- **🎯 Best for:** Developers needing schema-driven GraphQL workflows coupled with gRPC in an established GUI.
 
-### 🐃 Yaak
-- **🛠️ Stack:** Tauri / Rust / React | **📜 License:** MIT (source) / Commercial (binaries)
-- **📝 Overview:** Yaak comes from Greg Allen, who originally built Insomnia, and is designed as a fast, local-only desktop client with zero telemetry. It runs fully offline, stores data locally, includes no 3rd-party tracking libraries, and supports REST, GraphQL, gRPC, WebSockets, and SSE. The source is MIT, but **commercial use of prebuilt binaries requires a license**: $79/year for an individual, $399 for a lifetime license, or $149/user/year for Business. A 30-day trial is available.
-- **⚠️ Trade-off:** The commercial-use license trips people up—Yaak is free to learn with, but if you use it at work, you're expected to pay, making it less "free" than Bruno or Hoppscotch in practice.
-- **🎯 Best for:** Teams wanting a fully local, privacy-first client with broad protocol coverage, accepting the commercial licensing requirement for workplace use.
+### 4. Yaak
+- **GitHub**: [![GitHub stars](https://img.shields.io/github/stars/mountain-loop/yaak?style=social&color=white)](https://github.com/mountain-loop/yaak/stargazers)
+- **🛠️ Stack:** Tauri / Rust / React | **📜 License:** MIT (Source code) / Commercial (Pre-built Binaries)
+- **📝 Overview:** Created by the original author of Insomnia, Yaak is engineered for maximum speed, low memory overhead, and absolute privacy. Built with Rust and Tauri, Yaak operates entirely offline without telemetry or account requirements.
+- **🎯 Best for:** Developers seeking an ultra-responsive native desktop client with complete offline privacy.
 
-### 🐗 Warthog
-- **🛠️ Stack:** Go | **📜 License:** Open Source (Go package)
-- **📝 Overview:** Warthog is a cross-platform **gRPC GUI client** with automatic parsing of proto definitions, support for unary, server streaming, client streaming, and bidirectional requests, and TLS configuration including plain text. It supports authentication via Basic, Bearer Token, JWT, and GCE, with Kubernetes port forwarding and Google Cloud service authorization. It includes reflection API support for determining RPC schema and creates multiple workspaces for switching between projects. Builds are available for macOS, Linux, and Windows.
-- **⚠️ Trade-off:** It is gRPC-only rather than multi-protocol, and the interface is focused on gRPC rather than general API testing.
-- **🎯 Best for:** gRPC-centric teams wanting a dedicated desktop GUI for exploring and invoking protobuf services, accepting the gRPC-only scope.
-
-### ⚡ grpcui
+### 5. grpcurl
+- **GitHub**: [![GitHub stars](https://img.shields.io/github/stars/fullstorydev/grpcurl?style=social&color=white)](https://github.com/fullstorydev/grpcurl/stargazers)
 - **🛠️ Stack:** Go | **📜 License:** MIT
-- **📝 Overview:** grpcui provides a **web-based UI for gRPC** in the form of HTTP handlers that can be added to a web server. It automatically recognizes services and methods via server reflection, composes schema input into JSON, and saves established connections for reuse. It is described as "Postman for gRPC" and is useful for interactive gRPC trials without installing a desktop app.
-- **⚠️ Trade-off:** It is gRPC-only and web-based, requiring the gRPC server to support reflection.
-- **🎯 Best for:** Developers wanting a quick, browser-based way to explore and invoke gRPC services, accepting the gRPC-only scope and reflection requirement.
+- **📝 Overview:** `grpcurl` is the industry-standard command-line tool for interacting with gRPC servers, effectively functioning as cURL for protobuf services. It dynamically inspects servers with reflection and accepts JSON payloads.
+- **🎯 Best for:** DevOps engineers, CLI-centric developers, automated shell scripts, and terminal debugging.
 
-### 🦊 Restfox
-- **🛠️ Stack:** Vue | **📜 License:** Open Source
-- **📝 Overview:** Restfox is an **offline-first, minimalistic HTTP and WebSocket testing client** that runs both in the browser and as a desktop app. It has 2.7k GitHub stars, active commits, and exposes a CLI/SDK for embedding its request editor and response viewer into existing applications. It is positioned for teams that need a fast, reusable API-testing UI with offline capability.
-- **⚠️ Trade-off:** Protocol support is limited to HTTP and WebSocket—no gRPC or GraphQL.
-- **🎯 Best for:** Teams wanting a minimal, embeddable HTTP/WebSocket client with offline-first operation, accepting limited protocol coverage.
+### 6. BloomRPC
+- **GitHub**: [![GitHub stars](https://img.shields.io/github/stars/bloomrpc/bloomrpc?style=social&color=white)](https://github.com/bloomrpc/bloomrpc/stargazers)
+- **🛠️ Stack:** TypeScript / Electron | **📜 License:** GPL-3.0
+- **📝 Overview:** BloomRPC provided one of the earliest dedicated graphical desktop interfaces for gRPC, offering proto file imports, TLS authentication, and streaming call visualization.
+- **🎯 Best for:** Quick visual exploration of local proto files and standalone gRPC calls.
 
-### 📦 OneOpen Postkid
-- **🛠️ Stack:** Python / Flet | **📜 License:** Open Source (PyPI)
-- **📝 Overview:** OneOpen Postkid is a **local-first, Postman-style API client** built as a pure-Python desktop app, with collections, environments, cookies, flows, and history stored entirely on your machine. It supports HTTP, GraphQL, WebSocket, MQTT, and SOAP/XML, with pre-request and test scripts in Python (pm.* API), a collection runner, and import from Postman v2.1 and OpenAPI. It is positioned for teams wanting a Postman-like experience without any cloud dependency.
-- **⚠️ Trade-off:** It has no gRPC support, and the interface is newer and less polished than established clients.
-- **🎯 Best for:** Python-centric teams wanting a local-first, Postman-style multi-protocol client (REST, GraphQL, WebSocket, MQTT, SOAP), accepting the absence of gRPC and a newer UI.
+### 7. grpcui
+- **GitHub**: [![GitHub stars](https://img.shields.io/github/stars/fullstorydev/grpcui?style=social&color=white)](https://github.com/fullstorydev/grpcui/stargazers)
+- **🛠️ Stack:** Go | **📜 License:** MIT
+- **📝 Overview:** From the creators of `grpcurl`, `grpcui` spawns an interactive web application that lets developers test gRPC services in a browser via an intuitive form-based interface.
+- **🎯 Best for:** Testing gRPC endpoints interactively in a browser without installing dedicated desktop software.
 
----
+### 8. API Dash
+- **GitHub**: [![GitHub stars](https://img.shields.io/github/stars/foss42/apidash?style=social&color=white)](https://github.com/foss42/apidash/stargazers)
+- **🛠️ Stack:** Dart / Flutter | **📜 License:** Apache-2.0
+- **📝 Overview:** API Dash is an open-source, lightweight alternative to Postman built with Flutter. It focuses on clean UI design, fast startup times, offline-first execution, and code generation across various programming languages.
+- **🎯 Best for:** Developers who want an aesthetically clean, lightweight desktop API client without Electron bloat.
 
-## 📊 Comparison at a Glance
+### 9. Restfox
+- **GitHub**: [![GitHub stars](https://img.shields.io/github/stars/flawiddsouza/Restfox?style=social&color=white)](https://github.com/flawiddsouza/Restfox/stargazers)
+- **🛠️ Stack:** Vue.js | **📜 License:** MIT
+- **📝 Overview:** Restfox is a minimalist, offline-first HTTP and WebSocket client. It runs in the web browser, as an offline desktop utility, or as an embedded component within web systems.
+- **🎯 Best for:** Zero-install browser testing and lightweight HTTP/WebSocket requests.
 
-| Software | License | Stack | REST | gRPC | WebSocket | MQTT | Self-Hosted | Best For |
-| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| **📮 Postman** | Proprietary | Cloud / Desktop | ✅ | ⚠️ *(Limited)* | ⚠️ *(Limited)* | ❌ | ❌ | 🏢 Full API platform |
-| **🌙 Insomnia** | Apache-2.0 | Electron | ✅ | ✅ | ✅ | ❌ | 🔄 *(Partial)* | 🔍 GraphQL + gRPC |
-| **🛡️ Kreya** | Proprietary | Desktop | ✅ | ✅ *(Native)* | ✅ | ❌ | ❌ | 🔒 Privacy + gRPC depth |
-| **🐶 Bruno** | MIT | Electron | ✅ | ✅ | ✅ | ❌ | ✅ | 🐙 Git-native + broad protocols |
-| **👽 Hoppscotch** | MIT | Vue / TS | ✅ | ❌ | ✅ | ✅ | ✅ | 🌐 Widest protocol range |
-| **🐃 Yaak** | MIT (source) | Tauri / Rust | ✅ | ✅ | ✅ | ❌ | ✅ | 🛡️ Local-only + broad protocols |
-| **🐗 Warthog** | Open Source | Go | ❌ | ✅ | ❌ | ❌ | ✅ | 🖥️ gRPC desktop GUI |
-| **⚡ grpcui** | MIT | Go | ❌ | ✅ | ❌ | ❌ | ✅ *(Web)* | 🌐 Browser gRPC UI |
-| **🦊 Restfox** | Open Source | Vue | ✅ | ❌ | ✅ | ❌ | ✅ | 🔌 Offline HTTP / WS |
+### 10. Step CI
+- **GitHub**: [![GitHub stars](https://img.shields.io/github/stars/stepci/stepci?style=social&color=white)](https://github.com/stepci/stepci/stargazers)
+- **🛠️ Stack:** TypeScript / Node.js | **📜 License:** Apache-2.0
+- **📝 Overview:** Step CI is an open-source framework for declarative multi-protocol API testing and contract monitoring. It supports REST, GraphQL, gRPC, and WebSockets through simple YAML/JSON test definitions that execute in CI/CD pipelines.
+- **🎯 Best for:** Automated testing, multi-step API regression workflows, and CI/CD quality gates.
+
+### 11. Milkman
+- **GitHub**: [![GitHub stars](https://img.shields.io/github/stars/warmuuh/milkman?style=social&color=white)](https://github.com/warmuuh/milkman/stargazers)
+- **🛠️ Stack:** Java / JavaFX | **📜 License:** Apache-2.0
+- **📝 Overview:** Milkman is an extensible workbench crafted for craftspeople. With an architecture inspired by IDEs, it supports plugins for REST, gRPC, WebSockets, JDBC SQL, Cassandra, and message queues.
+- **🎯 Best for:** Polyglot developers who want a single workbench for APIs, database queries, and messaging protocols.
+
+### 12. Warthog
+- **GitHub**: [![GitHub stars](https://img.shields.io/github/stars/Forest33/warthog?style=social&color=white)](https://github.com/Forest33/warthog/stargazers)
+- **🛠️ Stack:** Go / Wails | **📜 License:** Apache-2.0
+- **📝 Overview:** Warthog is a cross-platform desktop gRPC client providing server reflection schema inspection, proto parsing, multi-workspace environments, and streaming invocation.
+- **🎯 Best for:** Dedicated gRPC developers requiring a fast, lightweight native GUI.
+
+### 13. OneOpen Postkid
+- **Package**: [![PyPI](https://img.shields.io/badge/PyPI-oneopen--postkid-blue?style=social&color=white)](https://pypi.org/project/oneopen-postkid/)
+- **🛠️ Stack:** Python / Flet | **📜 License:** Open Source
+- **📝 Overview:** OneOpen Postkid is a local-first, pure-Python desktop API client supporting HTTP, GraphQL, WebSockets, MQTT, and SOAP. It allows developers to author test scripts in native Python.
+- **🎯 Best for:** Python developers desiring an extensible, local-first API client scriptable in Python.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Multi-Protocol API Client tool that should be listed here, please open a pull request with:
+Contributions are warmly welcomed! If you know of an outstanding open-source or multi-protocol API client that should be featured:
 
-- 🏷️ Project name and URL
-- 📝 Brief description (1–2 sentences)
-- 🛠️ Stack and license
-- ✨ Why it stands out
+1. Fork this repository.
+2. Add your tool with a short description, tech stack, license, and GitHub repository link.
+3. Submit a pull request!
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source (or clearly note if it is source-available but not OSI-approved, as with Yaak's commercial binaries).
+Please review our community guidelines:
+- Multi-protocol capabilities (REST, GraphQL, gRPC, WebSockets, MQTT, etc.).
+- Active maintenance (updates within the last 12 months).
+- Clear licensing and documentation.
 
-💡 **Note on the open-source ecosystem:** The multi-protocol API client space is **fragmented by design**—no single open-source tool covers every protocol equally well. **Bruno** and **Yaak** are the strongest general-purpose choices, both covering REST, GraphQL, gRPC, WebSocket, and SSE, with Bruno offering Git-native collaboration and Yaak offering fully local privacy (at the cost of commercial licensing for workplace use). **Hoppscotch** uniquely covers MQTT and Socket.IO, making it the broadest protocol client, but it lacks gRPC support. For **gRPC-specific** needs, **Warthog** provides a dedicated desktop GUI with streaming support, while **grpcui** offers a lightweight browser-based alternative. **Insomnia** remains the most established open-source option with strong GraphQL and gRPC support, though its cloud-first architecture and free-tier user cap are limitations. No open-source project fully replicates Postman's ecosystem breadth, but the combination of Bruno (Git-native) or Hoppscotch (protocol breadth) with a dedicated gRPC tool like Warthog covers most multi-protocol workflows.
+---
+
+## 💖 Support
+
+If you find this repository valuable for your daily development workflow, please consider supporting the project:
+
+- ⭐ **Star this repository** to help other developers discover it!
+- 🍴 **Fork and share** with your teammates and community.
+- ☕ **Buy a coffee & sponsor ongoing maintenance:**  
+  👉 **[Support on GitHub Sponsors](https://github.com/sponsors/ishandutta2007)**
+
+Your support helps keep this curated directory continuously updated and maintained!
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Multi-Protocol-API-Client-GRPC-Websockets-Rest&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Multi-Protocol-API-Client-GRPC-Websockets-Rest&type=date&legend=top-left)
 
 ---
 
 ## 📄 License
 
-This list is released under [CC0 1.0 Universal](LICENSE) (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-<div align="center">
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
-
-</div>
+This collection is distributed under the [CC0 1.0 Universal](LICENSE) (Public Domain Dedication).  
+Individual tools and platforms maintain their respective licenses and terms of service.
